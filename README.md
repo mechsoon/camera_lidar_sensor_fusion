@@ -77,7 +77,7 @@ float32 distance
 
 </details>
 마지막으로, /matched_objects, /utm_coordinates 토픽을 subscribe하여 라이다에서 탐지한 객체의 위치를 utm좌표로 받을 수 있게 하였다. lidar to gps sensor의 T 또한 고려하였다. 그리고 계산된 utm 좌표는 
-/transformed_objects 의 토픽으로 발행되며 
+/utm_objects 의 토픽으로 발행되며 
 
 <summary>
   
